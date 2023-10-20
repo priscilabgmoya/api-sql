@@ -1,4 +1,4 @@
 module.exports={
-    cliente: require("./clientes.routes"), 
+    employee: require("./employee.routes"), 
     
 }

@@ -7,7 +7,7 @@ const app = express();
 app.use(morgan("dev")); 
 app.use(express.json());
 app.use(express.urlencoded({extended: true})); 
-app.use(ruotes.cliente)
+app.use(ruotes.employee)
 app.set("PORT",config.app.port);
 
 
