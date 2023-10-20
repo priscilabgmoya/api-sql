@@ -12,7 +12,7 @@ module.exports.getEmployees = async function() {
     }
 }
 module.exports.getOneEmployee = async function(dni) {
-    let conn 
+    let conn;
     try {
         conn = await getConnection(); 
         const SQL =  `SELECT  nombre, apellido, correo_electronico FROM ${tableEmployee} WHERE dni = ?`;
